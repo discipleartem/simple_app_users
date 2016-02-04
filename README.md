@@ -2,7 +2,7 @@
 
 Building demo blog by railstutorial.ru   Chapter 9 (complete Users)
 
-http://railstutorial.ru/chapters/4_0/sign-up#top
+hhttp://railstutorial.ru/chapters/4_0/updating-showing-and-deleting-users#top
 
 * Ruby version 2.1.2
 
@@ -14,10 +14,11 @@ http://railstutorial.ru/chapters/4_0/sign-up#top
 
 * Deployment from http://railstutorial.ru/chapters/4_0/a-demo-app#top
 
-- heroku run rake db:migrate --app mighty-temple-42543
+- if gem will_paginate not work - restart app
 - do rake assets:precompile for working styles
+- heroku run rake db:migrate --app stark-stream-79887
 
 
-App at production - https://mighty-temple-42543.herokuapp.com
+App at production - https://stark-stream-79887.herokuapp.com
 
-
+Chapter 9.4.0
